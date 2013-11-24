@@ -1,0 +1,32 @@
+{
+    "name": "ppl-textbok",
+    "description": "PPL teori för flygcertifikat",
+    "version": "0.0.1",
+    "homepage": "https://github.com/loa/ppl-textbok",
+    "keywords": [
+        "ppl",
+        "svenska"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/loa/ppl-textbok.git"
+    },
+    "author": {
+        "name": "Carl Loa Odin",
+        "email": "carlodin@gmail.com",
+        "url": "http://github.com/loa"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jeremyosborne/packagejsonexample/blob/master/LICENSE.txt"
+        }
+    ],
+    "main": "src/generate.js",
+    "engines": {
+        "node": ">= 0.6.x"
+    },
+    "dependencies": {
+        "markdown-pdf": "1.2.0"
+    }
+}
