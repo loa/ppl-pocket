@@ -6,7 +6,7 @@ Navigation
 061 01 01 01 - Jordens rörelse i solsystemet
 --------------------------------------------
 
-Redogör för jordens bana i förhå̊llande till solen och hur detta påverkar.
+Redogör för jordens bana i förhållande till solen och hur detta påverkar.
 
 Dygnsvariationer
 .........
@@ -18,21 +18,20 @@ Jordens rotation leder till dygnsrytmen där solen uppfattas gå upp i öst och 
 
 Då jorden snurrar ett varv under 1 år i en elliptisk bana runt solen medför detta årstiderna då olika delar av klotet får olika mängd direkt solljus på grund av jordens lutning. Detta medför speciellt att allt över polcirkeln 66.5° (90° - 23.5°) har sol dygnet runt en period under sommaren och konstant mörker under en period under vintern.
 
-061 01 02 01 - Storcirkel, småcirkel, loxodrom
+061 01 02 01 - Storcirkel, småcirkel, loxodrom
 ----------------------------------------------
 
-Redogör för innebörden av:
+Redogör för innebörden av:
 
 Parallellcirkel
 ...............
 
-todo
-
+En cirkel på jorden som är parallel med ekvatorn.
 
 Småcirkel
 .....................
 
-todo
+Småcirklar är cirklar på en svär som inte uppfyller kraven på en storcirkel, tex polcirkeln.
 
 Storcirkel (GC, great circle)
 .............................
@@ -42,9 +41,11 @@ Storcirkel (GC, great circle) är alltid kortaste sträckan mellan två punkter 
 Loxodrom
 ........
 
-todo
+Loxodrom eller en loxodromisk linje är en linje som skär alla meridianer med en konstant vinkel. En lokodrom blir då en spiral som går mellan sfärens poler.
 
 Meredian
 ........
 
-En meredian bestå
+Meredianerna går mellan polerna och är i praktiken en halv storcirkel. Så en meridian och dess kontra-meridian bildar en storcirkel.
+
+Nollmeridianen är meridianen som går genom Greenwich i sydvästra London.
