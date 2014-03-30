@@ -182,3 +182,65 @@ Exempel
  Perth, Australia      `31° 57' S`    `115° 52' E`
  Ottawa, Canada        `45° 24' N`    `075° 43' W`
 ====================  =============  ==============
+
+
+061 01 03 00 - Tid
+------------------
+
+Både när man hanterar bågavstånd och tid så är det vanligt att man använder decimaler istället för minuter och sekunder.
+
+Exempel på om mvandling från minuter till decimal:
+
+.. code-block:: c
+
+    59° 00' N = 59.0 N
+    59° 15' N = 59.25 N
+    59° 30' N = 59.5 N
+    59° 45' N = 59.75 N
+
+    1015 = 10.25
+    1030 = 10.5
+    1045 = 10.75
+
+061 01 03 02 - UTC
+------------------
+
+Universal Time Coordinated är tiden som vanligtvis används inom luftfarten. Tex anges all tid i ATS-färdplaner i UTC.
+
+UTC är baserad på International Atomic Time IAT.
+
+Svensk standardtid är UTC+1 vilket är vintertid. Svensk sommartid blir således ``svensk standardtid + 1 = UTC + 2``.
+
+061010303 - LMT
+-----------------------
+
+Local Mean Time är per definition när solenskivans mittpunkt passerar radialen 180° vid nuvarande position. Detta medför att LMT är väldigt lokalt. GMT är LMT vid noll-meridianen.
+
+061010304 - Standardtid
+-----------------------
+
+Standardtid är en politisk tid för ett visst geografiskt område. Tex så har det tagits ett beslut att svensk standardtid ska vara UTC+1. Oftast så skiljer det hela timmar mellan olika områden men det finns undantag.
+
+061 01 03 05 - Datumlinjen
+--------------------------
+
+Datumlinjen följer ungefär 180° meridianen men avviker på södra halvklotet för att bara passera över vatten.
+
+Om man passerar från 180° E (UTC+12h) till 180° W (UTC-12h) så får man dra tillbaka klockan ett helt dygn (12 + 12). Samma effekt oberoend vilket håll runt jorden man tar.
+
+061 01 03 06 - Soluppgång, solnedgång och gryning/skymmning
+-----------------------------------------------------------
+
+Inom luftfart så används ofta definitionerna av solens faser för att gå mellan olika regelverk t.e.x. när regler för nattflygning träder i kraft.
+
+Soluppgång och solnedgång är när solskivans mitt passerar horizonten.
+
+Det finns 3 olika gryningar/skymningar vars start/slut definieras av när solskivans mitt passerar en viss grad under horizontlinjen.
+
+====================  =============================
+ Gryning/skymning
+====================  =============================
+ Borgelig              6 grader under horizonten 
+ Nautisk               12 grader under horizonten 
+ Astronomisk           18 grader under horizonten 
+====================  =============================
