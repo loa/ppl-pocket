@@ -80,7 +80,7 @@ Skillnad i latitud översatt till avstånd
 
 I latitude är en bågminut samma som en nautisk mil *(Nm)* eller 1852 meter.
 
-M.h.a. detta kan man enkelt beräkna avstånd mellan platser som är på samma meridian. 
+M.h.a. detta kan man enkelt beräkna avstånd mellan platser som är på samma meridian.
 
 Avståndet mellan ekvatorn och nordpolen
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -161,14 +161,14 @@ I PPL krävs ej att man kan beräkna avståndet mellan två punkter förutom i f
 Jordens koordinatsystem
 .......................
 
-I jordens koordinatsystem så anges en position som bågavståndet från ekvatorn och noll-meridianen i latitude och longitude. Grader i longitud kan gå mellan `0°` - `180°` medans i latitud endast mellan `0°` - `90°`. 
+I jordens koordinatsystem så anges en position som bågavståndet från ekvatorn och noll-meridianen i latitude och longitude. Grader i longitud kan gå mellan `0°` - `180°` medans i latitud endast mellan `0°` - `90°`.
 
 .. code-block:: c
 
     Latitude = 90°N - 90°S
     Longitude = 180°W - 180°E
 
-Exempel 
+Exempel
 
 ====================  =============  ==============
  Stora städer i världen
@@ -240,9 +240,9 @@ Det finns 3 olika gryningar/skymningar vars start/slut definieras av när solski
 ====================  =============================
  Gryning/skymning
 ====================  =============================
- Borgelig              6 grader under horizonten 
- Nautisk               12 grader under horizonten 
- Astronomisk           18 grader under horizonten 
+ Borgelig              6 grader under horizonten
+ Nautisk               12 grader under horizonten
+ Astronomisk           18 grader under horizonten
 ====================  =============================
 
 
@@ -258,7 +258,7 @@ Norr anses vara den viktigaste kardinalriktning som senare öster, söder och v�
 
 True north är den geografiska nordpolen där alla meridianer sammanstrålar.
 
-Track linjer är en plannerad färd linje på en karta. När denna är plannerad med vinkel mot TN så kallas denna True Track TT. 
+Track linjer är en plannerad färd linje på en karta. När denna är plannerad med vinkel mot TN så kallas denna True Track TT.
 
 Bearing är vinkeln från flygplanets längdaxel och en kurslinje mot något. Tex om man ser en sjö rakt till höger så har den en ungefär bearing av 90°.
 
@@ -297,3 +297,30 @@ todo: magnetfältets utbredning och de jordmagnetiska krafterna
 todo: innebörden av isogon och inklination
 todo: TN, MN, CN, TH, MH, CH samt TB, MB, CB och relativ bäring
 todo: relationen mellan True och Magnetic beroende på geografisk plats
+
+061 01 05 01 - Enheter
+----------------------
+
+todo: Redogör för begreppen NM, SM, KM, meter och fot
+
+Nautical miles
+..............
+
+061 01 05 02 - Konvertering av enheter
+--------------------------------------
+
+==============  =========  ================
+ Nautic mile     1 NM       1852 m
+ Nautic mile     1 NM       1' på meridian
+ Knot            1 kn       1Nm / h
+ Statute mile    1 SM       1609 m
+ Fot             1000 ft    305 m
+==============  =========  ================
+
+todo: Utför korrekta omvandlingar mellan NM, SM, KM, meter och fot
+
+061 01 05 03 - Förhållande mellan NM samt skillnad i latitud/longitud
+---------------------------------------------------------------------
+
+todo: Redogör för konvertering mellan skillnad i latitud och avstånd i NM
+todo: Redogör för konvertering mellan skillnad i longitud och avstånd i NM (enkla specialfall)
