@@ -244,3 +244,56 @@ Det finns 3 olika gryningar/skymningar vars start/slut definieras av när solski
  Nautisk               12 grader under horizonten 
  Astronomisk           18 grader under horizonten 
 ====================  =============================
+
+
+061 01 04 00 - Riktningar
+-------------------------
+
+Vid navigation så används den geografiska nordpolen som referenspunkt med den klassiska 360 grader uppdelningen av horizonten. Norr benäms med antingen 0° eller 360°. Den geografiska nordpolen benäms som `True North TN`.
+
+Norr anses vara den viktigaste kardinalriktning som senare öster, söder och väster brukar definieras efter. Interkardinalriktingarna är riktningarna i mellan tex syd-öst, nord-väst etc.
+
+061 01 04 01 - True north
+-------------------------
+
+True north är den geografiska nordpolen där alla meridianer sammanstrålar.
+
+Track linjer är en plannerad färd linje på en karta. När denna är plannerad med vinkel mot TN så kallas denna True Track TT. 
+
+Bearing är vinkeln från flygplanets längdaxel och en kurslinje mot något. Tex om man ser en sjö rakt till höger så har den en ungefär bearing av 90°.
+
+True Bearing TB är när vinkeln är baserad på true north istället för flyplanets riktning. En TB 45° från en mast säger då att man är geografiskt direkt till öster om masten.
+
+061 01 04 02 - Magnetic North
+-----------------------------
+
+Magnetic North är den magnetiska nordpolen där inklinationen är 90°. Den ligger just nu i norra Kanada men rör på sig konstant. Från Sveriges perspektiv ungefär 1/2° var tionde år västerut på horisonten.
+
+Skillnaden mellan MN och TN kallas variation och kan som mest vara 180°. I Sverige är den runt 4°E, men förändras beroende på vart man är geografiskt. På kartor så markeras skillnader i variation med isogon linjer.
+
+I fysiska sammanhang så är jordens nordpol den magnetiska sydpolen, dock kallas den nordpol då kompassernas magnetiska nordpoler pekar på denna.
+
+Magnetic Heading är flygplanets rikting relativt till magnetiska nord.
+
+Magnetic Bearing är en bäring relativt till magnetiska nord.
+
+En agonisk linje är där inklinationen är 0°, tex vid ekvatorn.
+
+061 01 04 03 - Deviation, Compass North
+---------------------------------------
+
+Deviation är missvisning på kompassen p.g.a. störande magnetfält i flygplanet. Deviationen är olika beronde på vilken kurs flyplanet håller då flygplanets magnetfältet inte är jämnt.
+
+Därför har man Compass Track, Compass Bearing och Compass Heading som alla är relativa compassen indikeringen.
+
+Vid inställning av kursgyrat ska MH ställas in då man inte vill få med deviationsfelet.
+
+061 01 04 04 - Jordens magnetfält
+----------------------------------
+
+Jordens magnetfält går från sydpolen till nordpolen. Rent fysiskt så ligger den magnetiska nordpolen på sydpolen. Då magnetfältet böjer sig runt jorden som en klassisk magnet så får vi en effekt kallad inklination eller dipvinkel. Detta innebär att det magnetiska fältet har en viss lutning gentemot marken vilket skapar sväng- och accelerationsfel.
+
+todo: magnetfältets utbredning och de jordmagnetiska krafterna
+todo: innebörden av isogon och inklination
+todo: TN, MN, CN, TH, MH, CH samt TB, MB, CB och relativ bäring
+todo: relationen mellan True och Magnetic beroende på geografisk plats
