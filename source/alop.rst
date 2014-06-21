@@ -45,7 +45,7 @@ JAA - Joint Aviation Authorities
 
 JAA startade 1970 som ett samarbetsorgan för europeiska
 flygsäkerhetsmyndigheter. Efter 1987 så utökades JAAs ansvar till drift,
-underhåll, licensiering och certifikation/design standarder för alla klasser av
+underhåll, licensiering och certifiering/design standarder för alla klasser av
 flygplan.
 
 JAA var inte ett tillsynsorgan utan regleringarna skedde genom medlemsländerna
@@ -100,3 +100,7 @@ Parts FCL
 
 @todo
 
+Flygplatser
+-----------
+
+aoeu
