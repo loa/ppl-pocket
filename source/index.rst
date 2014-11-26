@@ -3,10 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ppl-pocket
-======================================
+Välkommen till ppl-pocket
+=========================
 
-Contents:
+Pocketboken innehåll styrs efter kunskapskraven från `Transportstyrelsen Version 1, 2010-02-02 <http://www.transportstyrelsen.se/sv/Luftfart/Privat--och-allmanflyg/Certifikat-och-utbildning/Privatflygarcertifikat-PPL/Teoriutbildning/Kunskapskrav/>`_.
+
+Kapitel:
 
 .. toctree::
    :maxdepth: 2
@@ -14,10 +16,4 @@ Contents:
    agk
    alop
    nav
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
+   met

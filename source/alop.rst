@@ -1,7 +1,7 @@
 
---------------------------------
-Air Law & Operational Procedures
---------------------------------
+-------------------------------------
+Bestämmelser och Operativa procedurer
+-------------------------------------
 
 Myndigheter & organisationer
 ============================
