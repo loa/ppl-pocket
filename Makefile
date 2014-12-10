@@ -49,6 +49,9 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/*
 
+livehtml:
+	sphinx-autobuild --port 8080 --host "0.0.0.0" -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
