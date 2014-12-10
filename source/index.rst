@@ -11,7 +11,7 @@ Pocketboken innehåll styrs efter kunskapskraven från `Transportstyrelsen Versi
 Kapitel:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    agk
    alop
