@@ -3,8 +3,8 @@
 Navigation
 -----------------
 
-061 01 01 01 - Jordens rörelse i solsystemet
---------------------------------------------
+Solsystemet
+-----------
 
 Dygnsvariationer
 ................
@@ -16,8 +16,8 @@ Jordens rotation leder till dygnsrytmen där solen uppfattas gå upp i öst och 
 
 Då jorden snurrar ett varv under 1 år i en elliptisk bana runt solen medför detta årstiderna då olika delar av klotet får olika mängd direkt solljus på grund av jordens lutning. Detta medför speciellt att allt över polcirkeln 66.5° (90° - 23.5°) har sol dygnet runt en period under sommaren och konstant mörker under en period under vintern.
 
-061 01 02 01 - Storcirkel, småcirkel, loxodrom
-----------------------------------------------
+Jorden
+------
 
 Parallellcirkel
 ...............
@@ -46,11 +46,8 @@ Meredianerna går mellan polerna och är i praktiken en halv storcirkel. Så en 
 
 Nollmeridianen är meridianen som går genom Greenwich i sydvästra London.
 
-061 01 02 03 - Latitud, skillnad i latitud
-------------------------------------------
-
 Latitud
-..............
+.......
 
 Latituder är dom horizontella cirklarna på jorden. Dessa liggande och "lata" cirklar markerar ett specifikt bågavstånd från ekvatorn.
 
@@ -122,9 +119,6 @@ Bågavstånd
 
 Läs vidare: :ref:`nav-bagavstand`
 
-061 01 02 04 - Longitud, skillnad i longitud
---------------------------------------------
-
 Longitud
 ........
 
@@ -139,15 +133,6 @@ Bågavstånd
 ..........
 
 Läs vidare: :ref:`nav-bagavstand`
-
-
-061 01 02 05 - Användning av latitud och longitud i koordinatsystemet
----------------------------------------------------------------------
-
-.. _nav-bagavstand:
-
-Bågavstånd
-..........
 
 Bågavstånd är avståndet utmed en sfär mellan två punkter och anges i grader, minuter och sekunder. Det går 60 minuter på en grad och 60 sekunder på en minut.
 
@@ -183,10 +168,6 @@ Exempel
  Ottawa, Canada        `45° 24' N`    `075° 43' W`
 ====================  =============  ==============
 
-
-061 01 03 00 - Tid
-------------------
-
 Både när man hanterar bågavstånd och tid så är det vanligt att man använder decimaler istället för minuter och sekunder.
 
 Exempel på om mvandling från minuter till decimal:
@@ -202,8 +183,13 @@ Exempel på om mvandling från minuter till decimal:
     1030 = 10.5
     1045 = 10.75
 
-061 01 03 02 - UTC
-------------------
+Tid
+---
+
+todo: Utför korrekta omvandlingar mellan timmar, minuter, sekunder, och decimaler av timmar
+
+UTC
+...
 
 Universal Time Coordinated är tiden som vanligtvis används inom luftfarten. Tex anges all tid i ATS-färdplaner i UTC.
 
@@ -211,25 +197,25 @@ UTC är baserad på International Atomic Time IAT.
 
 Svensk standardtid är UTC+1 vilket är vintertid. Svensk sommartid blir således ``svensk standardtid + 1 = UTC + 2``.
 
-061010303 - LMT
------------------------
+LMT
+...
 
 Local Mean Time är per definition när solenskivans mittpunkt passerar radialen 180° vid nuvarande position. Detta medför att LMT är väldigt lokalt. GMT är LMT vid noll-meridianen.
 
-061010304 - Standardtid
------------------------
+Standardtid
+...........
 
 Standardtid är en politisk tid för ett visst geografiskt område. Tex så har det tagits ett beslut att svensk standardtid ska vara UTC+1. Oftast så skiljer det hela timmar mellan olika områden men det finns undantag.
 
-061 01 03 05 - Datumlinjen
---------------------------
+Datumlinjen
+...........
 
 Datumlinjen följer ungefär 180° meridianen men avviker på södra halvklotet för att bara passera över vatten.
 
 Om man passerar från 180° E (UTC+12h) till 180° W (UTC-12h) så får man dra tillbaka klockan ett helt dygn (12 + 12). Samma effekt oberoend vilket håll runt jorden man tar.
 
-061 01 03 06 - Soluppgång, solnedgång och gryning/skymmning
------------------------------------------------------------
+Soluppgång, solnedgång och gryning/skymmning
+............................................
 
 Inom luftfart så används ofta definitionerna av solens faser för att gå mellan olika regelverk t.e.x. när regler för nattflygning träder i kraft.
 
@@ -246,15 +232,15 @@ Det finns 3 olika gryningar/skymningar vars start/slut definieras av när solski
 ====================  =============================
 
 
-061 01 04 00 - Riktningar
--------------------------
+Riktningar
+----------
 
 Vid navigation så används den geografiska nordpolen som referenspunkt med den klassiska 360 grader uppdelningen av horizonten. Norr benäms med antingen 0° eller 360°. Den geografiska nordpolen benäms som `True North TN`.
 
 Norr anses vara den viktigaste kardinalriktning som senare öster, söder och väster brukar definieras efter. Interkardinalriktingarna är riktningarna i mellan tex syd-öst, nord-väst etc.
 
-061 01 04 01 - True north
--------------------------
+True north
+..........
 
 True north är den geografiska nordpolen där alla meridianer sammanstrålar.
 
@@ -264,8 +250,8 @@ Bearing är vinkeln från flygplanets längdaxel och en kurslinje mot något. Te
 
 True Bearing TB är när vinkeln är baserad på true north istället för flyplanets riktning. En TB 45° från en mast säger då att man är geografiskt direkt till öster om masten.
 
-061 01 04 02 - Magnetic North
------------------------------
+Magnetic North
+..............
 
 Magnetic North är den magnetiska nordpolen där inklinationen är 90°. Den ligger just nu i norra Kanada men rör på sig konstant. Från Sveriges perspektiv ungefär 1/2° var tionde år västerut på horisonten.
 
@@ -279,8 +265,8 @@ Magnetic Bearing är en bäring relativt till magnetiska nord.
 
 En agonisk linje är där inklinationen är 0°, tex vid ekvatorn.
 
-061 01 04 03 - Deviation, Compass North
----------------------------------------
+Deviation, Compass North
+........................
 
 Deviation är missvisning på kompassen p.g.a. störande magnetfält i flygplanet. Deviationen är olika beronde på vilken kurs flyplanet håller då flygplanets magnetfältet inte är jämnt.
 
@@ -288,8 +274,8 @@ Därför har man Compass Track, Compass Bearing och Compass Heading som alla är
 
 Vid inställning av kursgyrat ska MH ställas in då man inte vill få med deviationsfelet.
 
-061 01 04 04 - Jordens magnetfält
-----------------------------------
+Jordens magnetfält
+..................
 
 Jordens magnetfält går från sydpolen till nordpolen. Rent fysiskt så ligger den magnetiska nordpolen på sydpolen. Då magnetfältet böjer sig runt jorden som en klassisk magnet så får vi en effekt kallad inklination eller dipvinkel. Detta innebär att det magnetiska fältet har en viss lutning gentemot marken vilket skapar sväng- och accelerationsfel.
 
@@ -298,16 +284,16 @@ todo: innebörden av isogon och inklination
 todo: TN, MN, CN, TH, MH, CH samt TB, MB, CB och relativ bäring
 todo: relationen mellan True och Magnetic beroende på geografisk plats
 
-061 01 05 01 - Enheter
-----------------------
+Enheter
+-------
 
 todo: Redogör för begreppen NM, SM, KM, meter och fot
 
 Nautical miles
 ..............
 
-061 01 05 02 - Konvertering av enheter
---------------------------------------
+Konvertering av enheter
+.......................
 
 ==============  =========  ================
  Nautic mile     1 NM       1852 m
@@ -319,8 +305,8 @@ Nautical miles
 
 todo: Utför korrekta omvandlingar mellan NM, SM, KM, meter och fot
 
-061 01 05 03 - Förhållande mellan NM samt skillnad i latitud/longitud
----------------------------------------------------------------------
+Förhållande mellan NM samt skillnad i latitud/longitud
+......................................................
 
 todo: Redogör för konvertering mellan skillnad i latitud och avstånd i NM
 todo: Redogör för konvertering mellan skillnad i longitud och avstånd i NM (enkla specialfall)
