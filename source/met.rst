@@ -3,8 +3,8 @@
 Meteorologi
 -----------
 
-Atmosfären
-----------
+Atmosfärens
+-----------
 
 Sammansättning
 ...............
@@ -13,25 +13,39 @@ Atmosfären består av torr ren luft, vattenånga och föroreningar. Den torra l
 
 Vertikala indelning enligt ISA, Internationella Standardatmosfären:
 
-+-------------------+------------------------------------+
-| Höjd              | Skikt                              |
-+===================+====================================+
-|                   | Ozonskikt                          |
-+-------------------+------------------------------------+
-| 50km              | Stratosfär                         |
-+-------------------+                                    |
-| 20km              |                                    |
-+-------------------+------------------------------------+
-| 20km              | Tropospaus (isotermi)              |
-+-------------------+                                    |
-| 11km / 36,090ft   |                                    |
-+-------------------+------------------------------------+
-| 36,090ft          | Troposfär                          |
-| 0                 |                                    |
-+-------------------+------------------------------------+
++-------------------+------------------------------------+------------------+
+| Höjd              | Skikt                              |  Temperatur      |
++===================+====================================+==================+
+|                   | Exosfären *(ingår ej i kunskapskraven)*               |
++-------------------+------------------------------------+------------------+
+|                   | Mesosfär *(ingår ej i kunskapskraven)*                |
++-------------------+------------------------------------+------------------+
+|                   | Termosfär *(ingår ej i kunskapskraven)*               |
++-------------------+------------------------------------+------------------+
+|                   | Mesosfär *(ingår ej i kunskapskraven)*                |
++-------------------+------------------------------------+------------------+
+| 50km              | Stratosfär                         |                  |
++-------------------+------------------------------------+------------------+
+| 20km / 65,000 fot                                                         |
++-------------------+------------------------------------+------------------+
+|                   | Tropospaus (isotermi)              | 0°C/1000ft       |
++-------------------+------------------------------------+------------------+
+| 11km / 36,090 fot                                      | -56.5°C          |
++-------------------+------------------------------------+------------------+
+|                   | Troposfär                          | -1.98°C/1000 fot |
++-------------------+------------------------------------+------------------+
+| 0                 | MSL (mean sea level)               | 15°C             |
++-------------------+-------------------------------------------------------+
 
-	
 Tropopausen
 ...........
 
-Skiljeytan mellan troposfären och stratosfären där första biten av skiktet har konstant temperatur (isotermi) upp till runt 20km.
+I troposfären sker egentligen alla väderfenomen och temperaturen sjunker med höjden upp till tropopausen. Tropospausen är skiljeytan med näst intill konstant temperatur *(isotermi)* upp till stratosfären där temperaturen börjar öka med höjden. Tropopausens höjd skiljer sig beroende på hur tjock troposfären är pga. tex. troposfärens temperatur. Vid polerna ligger tropopausen på 26,000 fot *(8 km)* medans vid ekvatorn kan starta så högt upp som 59,000 fot *(18 km)*.
+
+
+Stratosfären
+............
+
+Kommersiell trafik flyger typiskt i marchfart i nedre delen av stratosfären för att dra nytta av den kalla luften och låga luftdensiteten *(30,000–39,000 fot)* för optimal bränsleförbrukning och låg parasit motstånd. Att flyga ovanför troposfären tillåter även flygen att komma över extrema väder och på grund av den konstanta temperaturen i tropopausen och nedre delen av stratosfären så är det låg risk för konvektiv turbulens.
+
+
