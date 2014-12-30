@@ -116,6 +116,17 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
+# A dictionary of values to pass into the template engine’s context for all
+# pages. Single values can also be put in this dictionary using the -A
+# command-line option of sphinx-build.
+html_context = {
+    'display_github': True,
+    'github_user': 'loa',
+    'github_repo': 'ppl-pocket',
+    'github_version': 'master',
+    'conf_py_path': '/source/',
+}
+
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #html_title = None
