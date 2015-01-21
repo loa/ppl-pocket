@@ -3,6 +3,8 @@
 Luftfartyg
 -----------------
 
+.. warning:: Detta kapitel är under arbete och kan innehålla felaktigheter.
+
 Elektriska system
 -----------------
 
@@ -18,9 +20,9 @@ Strömförbrukare
 +-----------------------------+-------------------+
 | Pitotrörsvärme              | 5A                |
 +-----------------------------+-------------------+
-| Vingklaffmotor              | 4A                |
+| Vingklaffmotor              | 4A                |
 +-----------------------------+-------------------+
-| Antikollisionsljus (varje)  | 3.5 A             |
+| Antikollisionsljus (varje)  | 3.5 A             |
 +-----------------------------+-------------------+
 | Taxiljus                    | 3,5 A             |
 +-----------------------------+-------------------+

@@ -3,6 +3,8 @@
 Meteorologi
 -----------
 
+.. warning:: Detta kapitel är under arbete och kan innehålla felaktigheter.
+
 Atmosfärens
 -----------
 
