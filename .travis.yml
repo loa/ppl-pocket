@@ -11,6 +11,14 @@ env:
     - GH_REF: github.com/loa/ppl-pocket.git
     - secure: cdFz8PDJ9ZyXTOwIu/PF6zXjIaW/HPbmg1dL8Fb+/x6/EXQW1YyyRk6eQqf4hGHs6GeGIDIE3oi0cSW0xAtZR3Xl344dqinmGiBD9SjtzVcAHmFfWZturX0ZzTzowNsBm1awenFxLgWL2o3Iza2AO3tvCG05cG0AKl4EQgKVMr0=
 script: |
+    # Bump new version
+    wget -O semver https://gist.githubusercontent.com/loa/435da12af9494a112daf/raw/semver.sh
+    chmod u+x semver
+    git config user.name "Travis CI"
+    git config user.email "notifications@travis-ci.org"
+    git tag -a v$(./semver bump minor) -m "Version v$(./semver bump minor)"
+    git push --quiet "https://${GH_TOKEN}@${GH_REF}" --tags > /dev/null 2>&1
+    # Generate new gh-pages
     make html
     cd build/html
     git init
