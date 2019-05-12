@@ -1,9 +1,10 @@
-## PPL Pocket
+# README
 
-[![Build Status](https://travis-ci.org/loa/ppl-pocket.png?branch=master)](https://travis-ci.org/loa/ppl-pocket)
+## PPL Pocket
 
 PPL - Pocket versionen
 
 ## Licens
 
 [LICENSE](https://github.com/loa/ppl-pocket/blob/master/LICENSE).
+
